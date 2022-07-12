@@ -1,6 +1,6 @@
 body{
     display: block;
-    background: black;
+    background: url(pics/background.jpg);
     color: #fff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 150px;
