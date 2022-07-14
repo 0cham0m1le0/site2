@@ -20,6 +20,7 @@ nav{
     user-select: none;
     font-family: 'Ubuntu', sans-serif;
     transition: 0.7s;
+    z-index: 2000;
 }
 
 nav .logo:hover{
@@ -171,7 +172,94 @@ nav .rightSide{
     font-size: 0.3em;
     margin: 11px 5px 0px 4px;   
 }
-/*---------------------------------------------------------------Приветствие индекс конец---------------------------------------------------------*/
-article{
-    width: 500px;
+/*-------------------------------------------------------------Приветствие индекс конец------------------------------------------------------*/
+/*----------------------------------------------------------------Меню----------------------------------------------------------------------*/
+
+#menuzag{
+    font-size: 50px;
+    width: 100%;
 }
+
+.MenuField{
+    display: flex;
+    width: 80%;
+    margin: 0% 10%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: rgb(191, 172, 172);
+    color: #000;
+    border-radius: 12px;
+}
+
+.MenuBlock{
+    width: 90%;
+    background: rgb(237, 210, 210);
+    border-radius: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.MenuItem{
+    width: 45%;
+    height: 35vh;
+    background: #fff;
+    border-radius: 14px;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.MenuBlock h1{
+    width: 100%;
+    height: 50px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.MenuBlock img{
+    width: 255px;
+    border-radius: 12px;
+}
+
+
+
+.MenuItem .menuContent{
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+.MenuItem .menuContent h1{
+    font-size: 30px;
+}
+
+.MenuItem .menuContent p{
+    word-wrap: break-word;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.orderButton{
+    display: block;
+    background: #fff;
+    border-radius: 6px;
+    width: 120px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 75px;
+    color: rgb(246, 139, 9);
+    border: 2px solid rgb(246, 139, 9);
+    cursor: pointer;
+}
+
+.orderButton:hover{
+    color: #fff;
+    background: rgb(246, 139, 9);
+}
+
+/*---------------------------------------------------------------Меню конец------------------------------------------------------------------*/
